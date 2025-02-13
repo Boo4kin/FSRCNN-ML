@@ -40,16 +40,14 @@ FSRCNN is defined in the paper and in this project as FSRCNN(d,s,m), where d, s,
 │       ├── 0001.png
 │       ├── ...
 │       └── 0900.png
-├── notebooks
-│   └── Inference.ipynb
-├── requirements.txt
+├── Inference.ipynb
 ├── train.py
 ├── utils
 │   ├── constants.py
 │   ├── dataset.py
 │   └── model.py
-└── weights
-    └── model.h5
+│   └──__init__.py
+└── model.h5 
 ```
 
 - **utils/constants.py** - definition of constant like image size and upscaling factor
